@@ -1,0 +1,44 @@
+.seg-badge {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    padding: .6rem 1rem;
+    border-radius: 62.438rem;
+    border: 1px solid rgba(57, 255, 20, 0.2);
+    background-color: var(--secondary-color);
+}
+
+.seg-badge span {
+    color: #39FF14;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.seg-left {
+    display: flex;
+    flex: 1.1;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding-top: 5rem;
+}
+
+.seg-left h2 {
+    color: #FFFFFF;
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1.05;
+}
+
+.seg-left-text-destaque {
+    color: var(--primary-color);
+    font-size: 3.813rem;
+}
+
+.seg-left p {
+    font-size: 1.125rem;
+    color: #9CA3AF;
+    line-height: 1.7;
+    max-width: 36.25rem;
+    padding-top: 1rem;
+}
