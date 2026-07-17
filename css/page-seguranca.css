@@ -66,3 +66,30 @@
     color: #77777D;
     margin-top: 5px;
 }
+
+.seg-cpv-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.seg-cpv-card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color: #A0A3A8;
+    padding: 26px;
+    border-radius: 10px;
+}
+
+.seg-cpv-card-text h2 {
+    margin-top: 1rem;
+    color: #FFFFFF;
+}
+
+.seg-cpv-card-text p {
+    margin-top: 0.5rem;
+    color: #77777D;
+}
