@@ -10,12 +10,11 @@
     left: 0;
     width: 100%;
     z-index: 1000;
-    background-color: var(--secondary-color);
     background: rgba(255, 255, 255, 0.03);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-radius: 0.625rem;
-    margin: 0.75rem 0.625rem;
+    /* margin: 0.75rem 0.625rem; */
     display: flex;
     justify-content: space-between;
     align-items: center;
