@@ -42,3 +42,27 @@
     max-width: 36.25rem;
     padding-top: 1rem;
 }
+
+.seg-cpv-text {
+    text-align: center;
+}
+
+.seg-cpv {
+    outline: 2px solid var(--primary-color);
+    margin-top: 8rem;
+
+}
+
+.seg-cpv-text h3 {
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+.seg-cpv-text span {
+    color: var(--primary-color);
+}
+
+.seg-cpv-text p {
+    color: #77777D;
+    margin-top: 5px;
+}
