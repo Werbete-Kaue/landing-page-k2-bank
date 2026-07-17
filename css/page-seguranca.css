@@ -48,7 +48,7 @@
 }
 
 .seg-cpv {
-    outline: 2px solid var(--primary-color);
+    /* outline: 2px solid var(--primary-color); */
     margin-top: 8rem;
 
 }
