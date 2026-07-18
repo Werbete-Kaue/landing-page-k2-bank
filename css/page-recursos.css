@@ -1,9 +1,13 @@
+#recursos {
+    padding-top: 2rem;
+}
+
 .rec-left {
     display: flex;
     flex: 1.1;
     flex-direction: column;
     gap: 2.5rem;
-    padding-top: 5rem;
+    padding-top: 10rem;
 }
 
 .rec-left h2 {

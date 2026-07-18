@@ -20,7 +20,7 @@
     flex: 1.1;
     flex-direction: column;
     gap: 2.5rem;
-    padding-top: 5rem;
+    padding-top: 10rem;
 }
 
 .seg-left h2 {
@@ -49,7 +49,7 @@
 
 .seg-cpv {
     /* outline: 2px solid var(--primary-color); */
-    margin-top: 8rem;
+    margin-top: 3rem;
 
 }
 
