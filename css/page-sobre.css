@@ -1,0 +1,52 @@
+#sobre {
+    outline: 2px solid var(--primary-color);
+    display: flex;
+    flex: 1.2;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+
+.sob-left {
+    display: flex;
+    flex: 1.1;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding-top: 1rem;
+}
+
+.sob-left h2 {
+    color: #FFFFFF;
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1.05;
+}
+
+.sob-left-text-destaque {
+    color: var(--primary-color);
+    font-size: 3.813rem;
+}
+
+.sob-left p {
+    font-size: 1.125rem;
+    color: #9CA3AF;
+    line-height: 1.7;
+    max-width: 36.25rem;
+    padding-top: 1rem;
+}
+
+.sob-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sob-right img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    max-width: 999px;
+    /* animation: flutuar 4s ease-in-out infinite alternate;
+    will-change: transform;  */
+}

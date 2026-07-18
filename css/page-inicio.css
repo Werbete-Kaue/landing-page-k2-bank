@@ -1,9 +1,3 @@
-@import url(global.css);
-@import url(page-recursos.css);
-@import url(page-seguranca.css);
-@import url(page-sobre.css);
-
-
 .header {
     position: sticky;
     top: 0;
