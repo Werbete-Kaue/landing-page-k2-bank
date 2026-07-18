@@ -1,20 +1,3 @@
-.seg-badge {
-    width: fit-content;
-    display: flex;
-    align-items: center;
-    gap: .6rem;
-    padding: .6rem 1rem;
-    border-radius: 62.438rem;
-    border: 1px solid rgba(57, 255, 20, 0.2);
-    background-color: var(--secondary-color);
-}
-
-.seg-badge span {
-    color: #39FF14;
-    font-size: 0.875rem;
-    font-weight: 600;
-}
-
 .seg-left {
     display: flex;
     flex: 1.1;
