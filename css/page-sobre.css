@@ -1,5 +1,5 @@
 #sobre {
-    outline: 2px solid var(--primary-color);
+    /* outline: 2px solid var(--primary-color); */
     display: flex;
     flex: 1.2;
     justify-content: space-between;
@@ -49,4 +49,60 @@
     max-width: 999px;
     /* animation: flutuar 4s ease-in-out infinite alternate;
     will-change: transform;  */
+}
+
+.sob-features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255,255,255,.03);
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 0.875rem;
+}
+
+.sob-features-card {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.438rem;
+    flex: 1;
+}
+
+.sob-features-card:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 60%;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.sob-features-card-icon {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.75rem;
+    background:rgba(0,255,100,.08);
+}
+
+.sob-features-card-text h2 {
+    color: var(--primary-color);
+    font-weight: 800;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.sob-features-card-text p {
+    color: #FFFFFF;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+.sob-features-card-text span {
+    color: #9CA3AF;
 }
