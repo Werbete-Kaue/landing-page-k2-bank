@@ -1,9 +1,19 @@
+.seg-content {
+    outline: 2px solid var(--primary-color);
+    display: flex;
+    flex: 1.2;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 4rem;
+}
+
 .seg-left {
+    /* outline: 2px solid var(--primary-color); */
     display: flex;
     flex: 1.1;
     flex-direction: column;
     gap: 2.5rem;
-    padding-top: 10rem;
+    /* padding-top: 5rem; */
 }
 
 .seg-left h2 {
@@ -19,11 +29,26 @@
 }
 
 .seg-left p {
-    font-size: 1.125rem;
+    font-size: 1.5rem;
     color: #9CA3AF;
     line-height: 1.7;
     max-width: 36.25rem;
     padding-top: 1rem;
+}
+
+.seg-right {
+    /* outline: 2px solid var(--primary-color); */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seg-right img {
+    width: 100%;
+    display: block;
+    height: auto;
+    max-width: 56.25rem;
 }
 
 .seg-cpv-text {
@@ -31,9 +56,7 @@
 }
 
 .seg-cpv {
-    /* outline: 2px solid var(--primary-color); */
-    margin-top: 3rem;
-
+    outline: 2px solid var(--primary-color);
 }
 
 .seg-cpv-text h2 {
@@ -77,3 +100,18 @@
     margin-top: 0.5rem;
     color: #77777D;
 }
+
+/* #seguranca {
+    outline: 2px solid var(--primary-color);
+    display: flex;
+    flex: 1.2;
+    align-items: center;
+    gap: 5rem;
+} */
+
+/* .seg-right img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    max-width: 999px;
+} */
