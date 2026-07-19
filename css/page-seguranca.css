@@ -1,18 +1,20 @@
+#seguranca {
+    scroll-margin-top: 5rem;
+}
+
 .seg-content {
+    /* outline: 1px solid var(--primary-color); */
     display: flex;
     flex: 1.2;
     align-items: center;
     gap: 5rem;
-    margin-top: 4rem;
 }
 
 .seg-left {
-    /* outline: 2px solid var(--primary-color); */
     display: flex;
     flex: 1.1;
     flex-direction: column;
     gap: 2.5rem;
-    /* padding-top: 5rem; */
 }
 
 .seg-left h2 {
@@ -31,7 +33,7 @@
     font-size: 1.5rem;
     color: #9CA3AF;
     line-height: 1.7;
-    max-width: 36.25rem;
+    /* max-width: 36.25rem; */
     padding-top: 1rem;
 }
 
