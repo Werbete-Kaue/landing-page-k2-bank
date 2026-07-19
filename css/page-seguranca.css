@@ -48,6 +48,8 @@
     display: block;
     height: auto;
     max-width: 56.25rem;
+    animation: flutuar 4s ease-in-out infinite alternate;
+    will-change: transform;
 }
 
 .seg-cpv-text {

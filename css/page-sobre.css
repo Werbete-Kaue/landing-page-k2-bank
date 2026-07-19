@@ -47,8 +47,8 @@
     display: block;
     height: auto;
     max-width: 999px;
-    /* animation: flutuar 4s ease-in-out infinite alternate;
-    will-change: transform;  */
+    animation: flutuar 4s ease-in-out infinite alternate;
+    will-change: transform; 
 }
 
 .sob-features {
