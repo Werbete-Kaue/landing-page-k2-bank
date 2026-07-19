@@ -106,3 +106,32 @@
 .sob-features-card-text span {
     color: #9CA3AF;
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.75rem;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #FFFFFF;
+}
+
+.footer-inte-text-destaque {
+    color: var(--primary-color);
+}
+
+.footer-copy {
+    color: #565B66;
+}
+
+.footer-inte {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #676C75;
+}
