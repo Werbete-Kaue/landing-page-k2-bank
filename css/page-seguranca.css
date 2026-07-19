@@ -1,5 +1,4 @@
 .seg-content {
-    outline: 2px solid var(--primary-color);
     display: flex;
     flex: 1.2;
     align-items: center;
@@ -55,10 +54,6 @@
     text-align: center;
 }
 
-.seg-cpv {
-    outline: 2px solid var(--primary-color);
-}
-
 .seg-cpv-text h2 {
     font-size: 3.5rem;
     color: #FFFFFF;
@@ -100,18 +95,3 @@
     margin-top: 0.5rem;
     color: #77777D;
 }
-
-/* #seguranca {
-    outline: 2px solid var(--primary-color);
-    display: flex;
-    flex: 1.2;
-    align-items: center;
-    gap: 5rem;
-} */
-
-/* .seg-right img {
-    max-width: 100%;
-    display: block;
-    height: auto;
-    max-width: 999px;
-} */
