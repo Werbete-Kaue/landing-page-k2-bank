@@ -72,3 +72,35 @@
     line-height: 1.6;
     margin-top: 8px;
 }
+
+@media (max-width: 768px) {
+    .rec-left h2 {
+        font-size: 2.5rem;
+    }
+
+    .rec-left-text-destaque {
+        font-size: 2.4rem;
+    }
+
+    .rec-left p {
+        font-size: 1rem;
+    }
+
+    .rec-cards-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .rec-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .rec-card-icon {
+        width: 5rem;
+        height: 3.5rem;
+        margin-bottom: 0.5rem;
+    }
+}
