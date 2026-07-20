@@ -473,9 +473,14 @@
         padding: 1.25rem 1rem;
     }
 
-    .header-navegacao,
+    .header-navegacao {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    }
+
     .header-button {
-        display: none;
+    display: block;
     }
 
     .hero {
