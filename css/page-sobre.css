@@ -135,3 +135,128 @@
     gap: 0.5rem;
     color: #676C75;
 }
+
+@media (max-width: 1024px) {
+
+    #sobre {
+        flex-direction: column-reverse;
+        gap: 3rem;
+        text-align: center;
+    }
+
+    .sob-left {
+        align-items: center;
+        padding-top: 0;
+    }
+
+    .sob-left h2 {
+        font-size: 3.2rem;
+    }
+
+    .sob-left-text-destaque {
+        font-size: 3rem;
+    }
+
+    .sob-left p {
+        margin: 0 auto;
+        max-width: 42rem;
+    }
+
+    .sob-right img {
+        max-width: 34rem;
+        width: 100%;
+    }
+
+    .sob-features {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .sob-features-card {
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .sob-features-card:not(:last-child)::after {
+        display: none;
+    }
+
+    .sob-features-card:not(:last-child) {
+        border-bottom: 1px solid rgba(255,255,255,.08);
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #sobre {
+        gap: 2.5rem;
+    }
+
+    .sob-left {
+        align-items: center;
+        text-align: center;
+    }
+
+    .sob-left h2 {
+        font-size: 2.5rem;
+    }
+
+    .sob-left-text-destaque {
+        font-size: 2.3rem;
+    }
+
+    .sob-left p {
+        font-size: 1rem;
+        max-width: 100%;
+    }
+
+    .sob-right img {
+        max-width: 100%;
+    }
+
+    .sob-features {
+        gap: 0;
+    }
+
+    .sob-features-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1.5rem 1.125rem;
+    }
+
+    .sob-features-card-icon {
+        margin-bottom: .5rem;
+    }
+
+    .sob-features-card-text h2 {
+        font-size: 1.3rem;
+    }
+
+    .sob-features-card-text p,
+    .sob-features-card-text span {
+        font-size: .95rem;
+    }
+
+    .footer {
+        gap: 1rem;
+        margin: 1.5rem 1rem;
+    }
+
+    .footer-logo,
+    .footer-inte {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-copy {
+        text-align: center;
+        font-size: .9rem;
+    }
+}
