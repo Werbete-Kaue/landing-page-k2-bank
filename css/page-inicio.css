@@ -395,3 +395,82 @@
     color:#8B949E;
     line-height:1.5;
 }
+
+@media (max-width: 1024) {
+    .container {
+        padding: 0 1.5rem;
+    }
+
+    .hero-content {
+        flex-direction: column-reverse;
+        gap: 3rem;
+        padding: 2rem 0;
+    }
+
+    .hero-right img {
+        max-width: 80%;
+    }
+
+    .hero-left {
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-left-paragrafo {
+        margin: 0 auto;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .features-card:not(:last-child)::after {
+        display: none;
+    }
+
+    .features-card:not(:last-child) {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-navegacao,
+    .header-button {
+        display: none;
+    }
+
+    .hero-left-texto {
+        font-size: 2.5rem;
+    }
+
+    .hero-left-texto-destaque {
+        font-size: 2.4rem;
+    }
+
+    .hero-left-paragrafo {
+        font-size: 1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .hero-buttons-bnt1,
+    .hero-buttons-bnt2 {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .hero-left-cards-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        text-align: left;
+    }
+
+    .hero-left-card {
+        align-items: center;
+    }
+}
