@@ -511,7 +511,7 @@
     }
 
     .header-button {
-    display: block;
+    display: none;
     width: 100%;
     }
 
