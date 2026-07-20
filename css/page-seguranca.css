@@ -99,3 +99,115 @@
     margin-top: 0.5rem;
     color: #77777D;
 }
+
+@media (max-width: 1024px) {
+
+    .seg-content {
+        flex-direction: column-reverse;
+        gap: 3rem;
+        text-align: center;
+    }
+
+    .seg-left {
+        align-items: center;
+    }
+
+    .seg-left h2 {
+        font-size: 3.2rem;
+    }
+
+    .seg-left-text-destaque {
+        font-size: 3rem;
+    }
+
+    .seg-left p {
+        font-size: 1.25rem;
+        max-width: 42rem;
+        margin: 0 auto;
+    }
+
+    .seg-right img {
+        max-width: 34rem;
+    }
+
+    .seg-cpv-text h2 {
+        font-size: 3rem;
+    }
+
+    .seg-cpv-text p {
+        font-size: 1.2rem;
+    }
+
+    .seg-cpv-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+        align-items: stretch;
+    }
+
+    .seg-cpv-card {
+        padding: 1.5rem;
+        height: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .seg-content {
+        gap: 2.5rem;
+    }
+
+    .seg-left {
+        align-items: center;
+        text-align: center;
+    }
+
+    .seg-left h2 {
+        font-size: 2.5rem;
+    }
+
+    .seg-left-text-destaque {
+        font-size: 2.3rem;
+    }
+
+    .seg-left p {
+        font-size: 1rem;
+        max-width: 100%;
+    }
+
+    .seg-right img {
+        max-width: 100%;
+    }
+
+    .seg-cpv-text h2 {
+        font-size: 2.3rem;
+    }
+
+    .seg-cpv-text p {
+        font-size: 1rem;
+    }
+
+    .seg-cpv-cards {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .seg-cpv-card {
+        padding: 1.5rem 1.125rem;
+        text-align: center;
+    }
+
+    .seg-cpv-card img,
+    .seg-cpv-card svg {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .seg-cpv-card-text h2 {
+        font-size: 1.3rem;
+    }
+
+    .seg-cpv-card-text p {
+        font-size: 1rem;
+    }
+}
