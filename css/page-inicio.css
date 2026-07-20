@@ -13,6 +13,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1.875rem 0.938rem;
+    flex-wrap: wrap;
 }
 
 .header-logo {
@@ -396,32 +397,61 @@
     line-height:1.5;
 }
 
-@media (max-width: 1024) {
+@media (max-width: 1024px) {
+
     .container {
         padding: 0 1.5rem;
     }
 
-    .hero-content {
-        flex-direction: column-reverse;
-        gap: 3rem;
-        padding: 2rem 0;
+    .hero {
+        padding: 4rem 0;
     }
 
-    .hero-right img {
-        max-width: 80%;
+    .hero-content {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 3rem;
+        text-align: center;
     }
 
     .hero-left {
         align-items: center;
-        text-align: center;
+        padding-top: 0;
+    }
+
+    .hero-left-texto {
+        font-size: 3.2rem;
+    }
+
+    .hero-left-texto-destaque {
+        font-size: 3rem;
     }
 
     .hero-left-paragrafo {
+        max-width: 650px;
         margin: 0 auto;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-left-cards-grid {
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .hero-right img {
+        max-width: 500px;
+        width: 100%;
     }
 
     .features {
         flex-direction: column;
+    }
+
+    .features-card {
+        width: 100%;
     }
 
     .features-card:not(:last-child)::after {
@@ -429,23 +459,40 @@
     }
 
     .features-card:not(:last-child) {
-        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-        width: 100%;
+        border-bottom: 1px solid rgba(255,255,255,.08);
     }
 }
 
 @media (max-width: 768px) {
+
+    .container {
+        padding: 0 1rem;
+    }
+
+    .header {
+        padding: 1.25rem 1rem;
+    }
+
     .header-navegacao,
     .header-button {
         display: none;
     }
 
+    .hero {
+        padding: 3rem 0;
+    }
+
+    .hero-left {
+        gap: 2rem;
+    }
+
     .hero-left-texto {
         font-size: 2.5rem;
+        line-height: 1.15;
     }
 
     .hero-left-texto-destaque {
-        font-size: 2.4rem;
+        font-size: 2.3rem;
     }
 
     .hero-left-paragrafo {
@@ -467,10 +514,29 @@
     .hero-left-cards-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
-        text-align: left;
     }
 
     .hero-left-card {
         align-items: center;
+    }
+
+    .hero-right img {
+        max-width: 100%;
+    }
+
+    .hero-badge {
+        margin: 0 auto;
+    }
+
+    .features {
+        gap: 0;
+    }
+
+    .features-text h2 {
+        font-size: 1.1rem;
+    }
+
+    .features-text p {
+        font-size: .95rem;
     }
 }
