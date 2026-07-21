@@ -362,7 +362,7 @@
 @keyframes revelar {
     from {
         opacity: 0;
-        transform: translateY(60px) scale(0.85);
+        transform: translateY(120px) scale(0.85);
         filter: blur(10px);
     }
 
@@ -522,6 +522,10 @@
 }
 
 @media (max-width: 768px) {
+
+    .revelar-secao {
+        animation-range: entry 20% cover 20%;
+    }
 
     .header {
         padding: 1.25rem 1rem;
