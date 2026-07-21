@@ -350,7 +350,6 @@
 
 .revelar-secao {
     animation-name: revelar;
-    /* animation-duration: 1s; */
     animation-fill-mode: both;
     animation-timeline: view();
     animation-range: entry 5% cover 55%;
