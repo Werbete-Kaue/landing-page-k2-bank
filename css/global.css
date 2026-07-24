@@ -6,9 +6,18 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 90px;
+}
+
 body {
     font-family: var(--primary-font);
     background-color: var(--secondary-color);
+    /* padding-top: 110px; */   
 }
 
 :root {
